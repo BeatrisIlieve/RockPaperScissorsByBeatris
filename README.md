@@ -7,8 +7,8 @@
 #### - If both player's choices are equal, the result is draw
 ### *The player choses "r" for rock, "p" for paper or "s" for scissor and the computer chooses a random option, then announces who the winner is* 
 ### The possible outcomes are:
-#### - player's choice  to be *scissors* and the choice of computer to be *rock*, and vice versa 
-#### - player's choice to be *rock* and the choice of computer to be *paper*, and vice versa 
+#### - player's choice  to be *scissors* and the choice of computer to be *rock*, 
+#### - player's choice to be *rock* and the choice of computer to be *paper*, 
 #### - player's choice to be *paper* and the choice of computer to be *scissors*, and vice versa 
 #### - finally, the choices could be one and the same
 ## Features:
