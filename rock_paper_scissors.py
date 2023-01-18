@@ -12,6 +12,7 @@ print(f"{' ' * 8}" f"{Style.BRIGHT}{Fore.BLUE}'{Fore.MAGENTA}W{Fore.YELLOW}e{For
       f"{Fore.GREEN}r {Fore.MAGENTA}a{Fore.YELLOW}n{Fore.GREEN}d {Fore.YELLOW}s{Fore.MAGENTA}c"
       f"{Fore.GREEN}i{Fore.BLUE}s{Fore.MAGENTA}s{Fore.YELLOW}o{Fore.BLUE}r{Fore.GREEN}s "
       f"{Fore.GREEN}g{Fore.BLUE}a{Fore.MAGENTA}m{Fore.YELLOW}e{Fore.BLUE}'")
+print()
 
 # auxiliary variables
 rock = 'Rock'
