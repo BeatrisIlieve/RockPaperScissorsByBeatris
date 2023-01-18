@@ -15,9 +15,6 @@ print(f"{' ' * 8}" f"{Style.BRIGHT}{Fore.BLUE}'{Fore.MAGENTA}W{Fore.YELLOW}e{For
 print()
 
 # auxiliary variables
-rock = 'Rock'
-paper = 'Paper'
-scissors = 'Scissors'
 wins_counter = 0
 draws_counter = 0
 loses_counter = 0
@@ -45,16 +42,9 @@ while True:
         # case of invalid input
         raise SystemExit('Invalid input. Try again...')
 
-    # computer randomly chooses a number between any number among one and three,
-    # using randint method of random module
-    computer_random_number = random.randint(1, 3)
-    computer_choice = ''
-    if computer_random_number == 1:
-        computer_choice = 'rock'
-    elif computer_random_number == 2:
-        computer_choice = 'paper'
-    elif computer_random_number == 3:
-        computer_choice = 'scissors'
+    # the random module randomly chooses a str in the choice_list list and assigns it to computer_choice
+    choice_list = ['rock', 'paper', 'scissors']
+    computer_choice = random.choice(choice_list)
 
     # loss condition
     if player_choice == 'scissors' and computer_choice == 'rock' or \
