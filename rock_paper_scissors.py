@@ -11,13 +11,7 @@ print(f"{' ' * 8}" f"{Style.BRIGHT}{Fore.BLUE}'{Fore.MAGENTA}W{Fore.YELLOW}e{For
       f"{Fore.BLUE}c{Fore.MAGENTA}k, {Fore.YELLOW}p{Fore.GREEN}a{Fore.MAGENTA}p{Fore.YELLOW}e"
       f"{Fore.GREEN}r {Fore.MAGENTA}a{Fore.YELLOW}n{Fore.GREEN}d {Fore.YELLOW}s{Fore.MAGENTA}c"
       f"{Fore.GREEN}i{Fore.BLUE}s{Fore.MAGENTA}s{Fore.YELLOW}o{Fore.BLUE}r{Fore.GREEN}s "
-      f"{Fore.GREEN}g{Fore.BLUE}a{Fore.MAGENTA}m{Fore.YELLOW}e{Fore.BLUE}'\n"
-      f"{Style.NORMAL}{Fore.BLACK}Rules: \n"
-      f"- Rock beats scissors (the scissors get broken by the rock)\n"
-      f"- Scissors beats paper (the paper gets cut by the scissors)\n"
-      f"- Paper beats rock (the paper covers the rock)\n"
-      f"\n{' ' * 8}Author: Beatris Ilieva\n"
-      f"{' ' * 8}Course: SoftUni Fundamentals with Python\n")
+      f"{Fore.GREEN}g{Fore.BLUE}a{Fore.MAGENTA}m{Fore.YELLOW}e{Fore.BLUE}'")
 
 # auxiliary variables
 rock = 'Rock'
