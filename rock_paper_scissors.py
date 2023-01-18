@@ -12,6 +12,7 @@ print(f"{' ' * 8}" f"{Style.BRIGHT}{Fore.BLUE}'{Fore.MAGENTA}W{Fore.YELLOW}e{For
       f"{Fore.GREEN}r {Fore.MAGENTA}a{Fore.YELLOW}n{Fore.GREEN}d {Fore.YELLOW}s{Fore.MAGENTA}c"
       f"{Fore.GREEN}i{Fore.BLUE}s{Fore.MAGENTA}s{Fore.YELLOW}o{Fore.BLUE}r{Fore.GREEN}s "
       f"{Fore.GREEN}g{Fore.BLUE}a{Fore.MAGENTA}m{Fore.YELLOW}e{Fore.BLUE}'")
+print()
 
 # auxiliary variables
 rock = 'Rock'
@@ -88,6 +89,7 @@ while True:
 
     # if user's choice is 'n', we break the while loop
     if next_choice == 'n':
+        print()
         print(f'{Style.BRIGHT}{Fore.MAGENTA}T{Fore.GREEN}h{Fore.BLUE}a{Fore.YELLOW}n{Fore.GREEN}k{Fore.MAGENTA}'
               f' y{Fore.BLUE}o{Fore.MAGENTA}u {Fore.BLUE}f{Fore.RED}o{Fore.MAGENTA}r p{Fore.BLUE}l'
               f'{Fore.RED}a{Fore.GREEN}y{Fore.YELLOW}i{Fore.BLUE}n{Fore.MAGENTA}g,{Fore.MAGENTA} {Fore.CYAN}{user_name}!')
