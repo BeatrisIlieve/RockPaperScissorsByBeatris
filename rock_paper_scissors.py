@@ -93,10 +93,11 @@ while True:
         print(f'{Style.BRIGHT}{Fore.MAGENTA}T{Fore.GREEN}h{Fore.BLUE}a{Fore.YELLOW}n{Fore.GREEN}k{Fore.MAGENTA}'
               f' y{Fore.BLUE}o{Fore.MAGENTA}u {Fore.BLUE}f{Fore.RED}o{Fore.MAGENTA}r p{Fore.BLUE}l'
               f'{Fore.RED}a{Fore.GREEN}y{Fore.YELLOW}i{Fore.BLUE}n{Fore.MAGENTA}g,{Fore.MAGENTA} {Fore.CYAN}{user_name}!')
+        print()
         # printing final result of the games
-        print(Fore.GREEN + f'{Back.LIGHTWHITE_EX}Wins: {wins_counter}')
-        print(Fore.YELLOW + f'{Back.LIGHTWHITE_EX}Draws: {draws_counter}')
-        print(Fore.RED + f'{Back.LIGHTWHITE_EX}Loses: {loses_counter}')
+        print(Fore.GREEN + f'{Back.LIGHTWHITE_EX}Wins: {wins_counter}{Back.RESET}')
+        print(Fore.YELLOW + f'{Back.LIGHTWHITE_EX}Draws: {draws_counter}{Back.RESET}')
+        print(Fore.RED + f'{Back.LIGHTWHITE_EX}Loses: {loses_counter}{Back.RESET}')
         break
 
     # case of invalid input
