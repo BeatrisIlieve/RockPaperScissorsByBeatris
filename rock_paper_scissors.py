@@ -25,6 +25,7 @@ current_loses_counter = 0
 
 # taking user input
 user_name = input(Fore.CYAN + 'Enter your name: ')
+print()
 print(Fore.MAGENTA + f'{Fore.MAGENTA}H{Fore.YELLOW}E{Fore.GREEN}L{Fore.BLUE}L{Fore.MAGENTA}O '
                      f'{Fore.CYAN}{user_name}! It\'s your turn.')
 
