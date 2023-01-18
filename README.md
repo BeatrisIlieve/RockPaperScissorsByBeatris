@@ -19,5 +19,4 @@
 ## Screenshot
 <img width="467" alt="Screenshot 2023-01-18 at 19 04 21" src="https://user-images.githubusercontent.com/122045435/213247360-cecd1d3f-79ee-4d36-a795-27574b5f2fb7.png">
 
-## *You can play the game directly in your browser here:*
-[(https://replit.com/@BeatrisIlieve/RockPaperScissorsByBeatris#main.py)]
+## *You can play the game directly in your browser [**HERE**](https://replit.com/@BeatrisIlieve/RockPaperScissorsByBeatris#main.py):*
